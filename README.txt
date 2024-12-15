@@ -1,4 +1,6 @@
-This is my website page to find all of the projects I have worked on or created. There is also an about me section to learn a little more on who I am. Visit the site zvshack/github.io to learn more
+This is my website page to find all of the projects I have worked on or created. 
+There is also an about me section to learn a little more on who I am. 
+Visit the site https://zvshack/github.io/my-projects to learn more
 
 
 Credits:
