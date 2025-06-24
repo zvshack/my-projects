@@ -4,26 +4,37 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
-
-</div>
-		<title>Zach Shack Portfolio </title>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8">
+		<title>Zach Shack Portfolio</title>
+		<link rel="stylesheet" href="styles.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
+	<body class ="is-preload">
+
+		<header class="banner1">
+			<h1>Welcome to My ePortfolio</h1>
+		</header>
+		<nav class="navbar">
+			<ul>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#computer">Computer Science</a></li>
+				<li><a href="#psychology">Psychology</a></li>
+			</ul>
+		</nav>
+		
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 
 				<!-- One -->
-					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+					<section id= "about" class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
 							<h1>About Me</h1>
-							<p class="major">Hello, my name is Zach Shack, thank you for viewing my e-portfolio! I am currently a senior studying Computer Science and Psychology at Knox College. I have a passion for creating interactive applications, designing efficient algorithms, and working with large datasets. Throughout this portfolio, you will be able to find all of my collegiate coding projects as well as other side projects. </p>
+							<p class="major">Hello, my name is Zach Shack, thank you for viewing my e-portfolio! I am a recent graduate from Knox College and majored in Computer Science and Psychology. I have a passion for creating interactive applications, designing efficient algorithms, and working with large datasets. Throughout this portfolio, you will be able to find all of my collegiate coding projects as well as other side projects I have worked on. </p>
 							<div class="inner">
 								<ul class="icons">
 									<li><a href="https://linkedin.com/in/zachariah-shack-3b40052a5" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
@@ -37,8 +48,14 @@
 							<img src="images/mepic2.jpg" alt="" />
 						</div>
 					</section>
-
+				<!-- Banner2 -->
+				<section id="computer" class="banner2">
+					<div class="inner">
+						<h2>Computer Science</h2>
+					</div>
+				</section>
 				<!-- Two -->
+					
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
 							<h2>Dog Emotion Classification Model</h2>
@@ -48,25 +65,79 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/dog01.jpg" alt="" />
+							<img src="images/aimodel.png" alt="" />
 						</div>
 					</section>
-
 				<!-- Three -->
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
+							<h2>Astrological Database</h2>
+							<p>This was a paired project for the astrologists at Knox College as well as other astrologists in the midwest. All these astrologists currently had all of their images in FTS files in a storage system. We created a databsae to take in these FTS images, process them, and filter them.</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/Knox-College-Computer-Science/Database1" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/planetoftheAPIstitle.png" alt="" />
+							<img src="images/databaseuse.png" alt="" />
+						</div>
+					</section>
+				<!-- Four -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>Hope Cemetery Game</h2>
+							<p>This game was created to bring awareness and information about the history of Galesburg and the Cemetery attatched to it. I led a team to success over the course of a term. We successfully completed the menus for the game portion of the game. This is a larger scale project that we pioneered for teams in the future to finish</p>
+							<ul class="actions stacked">
+								<li><a  href= "https://github.com/Knox-College-Computer-Science/hope-cemetery-game" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/hopecemetery.png" alt="" />
+						</div>
+					</section>
+				<!-- Five -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>360 No Scope</h2>
+							<p>In a small team, we created a flash game to play on itch.io. This game is a puzzle timing game where a knight jumps to shoot goblins. Press the learn more tab to visit the github repo, or click the itch.io tab to play the game yourself.</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/Vysubs28/360-No-Scope" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/360NoScope.png" alt="" />
+						</div>
+					</section>
+					<!-- Six -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Cognitive Attention Tasks</h2>
+							<p>I have created 2 attention games that use math to test the user's working memory. Marijuana and other substances effects people's working memory. These two minigames (and others) will be used for an app for people to get high and test how impaired they are based on an arbitrary scale. The games are coded through Javafx and gradle. Click either tab to be taken to the github repo of each game.</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/zvshack/Adding-All/tree/main/CogGame" class="button">Learn More Adding All</a></li>
+								<li><a href="https://github.com/zvshack/adding-last-two" class="button">Learn More Adding Last 2</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/add2rules.png" alt="" style="width: 100%; height: 100%; object-fit: contain;"/>
+							<img src="images/alladdrules.png" alt="" style="width: 100%; height: 100%; object-fit: contain;"/>
+						</div>
+					</section>
+				<!-- seven -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
 							<h2>Black Jack Simulator</h2>
-							<p>As I just turned 21, I am now able to go to casinos, but I don't want to lose my money. There are strategies to better your odds in the game Black Jack through simple methods of counting cards. This simulation is an interactive game using JavaFX that helps keep track of this card counting to help the user prepare for playing in real casinos and earning money. </p>
+							<p>There are strategies to better your odds in the game Black Jack through simple methods of counting cards. This simulation is an interactive game using JavaFX that keeps track of card counting to prepare users for bettering their odds in real casinos and earning money. </p>
 							<ul class="actions stacked">
 								<li><a href="https://github.com/zvshack/Blackjack-Simulator" class="button">Learn More</a></li>
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/blackjacktable.jpg" alt="" />
+							<img src="images/blackjackboard.png" alt="" />
 						</div>
 					</section>
 
-				<!-- Four -->
+				<!-- eight -->
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>Puzzle Game (2048)</h2>
@@ -76,11 +147,11 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/2048_logo.jpg" alt="" style="width: 100%; height: 100%; object-fit: contain;"/>
+							<img src="images/sudoku.png" alt="" style="width: 100%; height: 100%; object-fit: contain;"/>
 						</div>
 					</section>
 
-					<!-- Five -->
+					<!-- nine -->
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>Sudoku</h2>
@@ -90,11 +161,82 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/sodoku.jpg" alt="" />
+							<img src="images/sudokuboard.png" alt="" />
+						</div>
+					</section>
+				
+				<!-- Banner3 -->
+				<section id="psychology" class="banner2">
+					<div class="inner">
+						<h2>Psychology</h2>
+					</div>
+				</section>
+
+				<!-- Psych 1 -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>TikTok Boredom and Attention</h2>
+							<p>I set out to answer the question if TikTok actually rots your brain more than other content. I did this through having some people watch TikTok or longer videos and see if their state boredom would increase, and attention would decrease afterward. 
+							I mainly found that it did not take until the 5th day for only attention scores to differ between experiemnt and control. Prior use was controlled but similar to previous research did relate to higher boredom and lower attention span. TikTok does not seem to cause more boredom or attention issues in short consumption. However, overttime it could have long lasting effects. 
+							If I were to do more research, I would look at TikTok use over a longer period of time and study binge watching instead of shorter uses. To the right is a picture of the poster presenting this project</p>
+						</div>
+						<div class="image">
+							<img src="images/tiktokstudy.png" alt="" />
+						</div>
+					</section>
+					
+				<!-- Psych 2 -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>CIMPT</h2>
+							<p>I helped my teachor and advisor, professor Andy Hertel as well as 5 other students test an intervention to help those who smoke to stop smoking. 
+							This intervention is called the CIMP-T. The CIMP-T stands for cannabis-user identity misfit perception task. Based off the prior created and tested DIMP-T
+							which was used for drinkers. It is a task for cannabis users to write the bad qualities of a someone who uses cannabis, understand that they do not have those qualities,
+							and then lessen their smoking because they see themselves as different. On the left is a picture of the poster for more information.</p>
+							
+						</div>
+							
+						<div class="image">
+							<img src="images/cimpt.png" alt="" style="width: 100%; height: 100%; object-fit: contain;"/>
 						</div>
 					</section>
 
-				<!-- Six -->
+				<!-- Psych 3 -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Grandparents And Giving</h2>
+							<p>Me and a group set out to figure out the question of which grandparents provides the most for their grandchild and if there was a cultural difference between individualistic or collectivistic. 
+							We sent out a school wide survey asking to see which of the four biological grandparents (mother's mother, mother's father, father's mother, and father's father) 
+							invest the most in their grandchild in the realms of emotional closeness, percieved liking, communication, and financial support.
+							We found that the grandparents did not differ accross culture, but the mother's grandparents invested significantly more tp their grandchildren in all categories except financial support.
+							On the right is a picture of my poster presentation or click the button below to check out the slides presentation.</p>
+							<ul class="actions stacked">
+								<li><a href="https://docs.google.com/presentation/d/1BEun2TyxcGOXLnwYC08NFzxBThvas1HvrOASupEViuQ/edit?usp=sharing" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/grandparentposter.png" alt="" />
+						</div>
+					</section>
+
+				<!-- Psych 4 -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Marijuana and Attention</h2>
+							<p>As seen above, I created two cognitive games for making an app. I have conducted a psychological test on one of these apps (add the last 2). 
+							Here I tested if marijuana actually affected working memory. I had a within subjects design where participants played the game sober and when they were inebriated.
+							We found that participants who played the game inebriated performed significantly worse on the attention game than when they played the game sober. 
+							It was near significant that the difference between a participant's inebriated and sober socre was smaller when the participant was a frequent user of marijuana.
+							To the right is a picture of the statistics we found during the experiment.
+							</p>
+							
+						</div>
+							
+						<div class="image">
+							<img src="images/statistics.png" alt="" style="width: 100%; height: 100%; object-fit: contain;"/>
+						</div>
+					</section>
+				<!-- Seven -->
 					<!-- <section class="wrapper style1 align-center">
 						<div class="inner">
 							<h2>Massa sed condimentum</h2>

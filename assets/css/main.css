@@ -2632,11 +2632,20 @@ input, select, textarea {
 		border-radius: 4px;
 		display: inline-block;
 		position: relative;
+		 width: 100%;
+		max-width: 100%;
+  		margin: 0 auto;
+  		overflow: hidden;
 	}
 
 		.image img {
 			display: block;
 			border-radius: 4px;
+			width: 100%;
+  			height: auto;
+  			object-fit: contain; /* or cover, if you prefer cropping */
+  			display: block;
+  			max-width: 100%;
 		}
 
 		.image.left, .image.right {
