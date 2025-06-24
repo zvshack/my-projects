@@ -2644,8 +2644,8 @@ input, select, textarea {
 			width: 100%;
   			height: auto;
   			object-fit: contain; /* or cover, if you prefer cropping */
-  			display: block;
   			max-width: 100%;
+			overflow: hidden;
 		}
 
 		.image.left, .image.right {
